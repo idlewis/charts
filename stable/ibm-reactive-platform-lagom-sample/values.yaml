@@ -11,13 +11,14 @@ arch: amd64
 ## Common image variables
 ###############################################################################
 image:
-  repository: ibmcom
+  repository: mycluster.icp:8500
   pullPolicy: IfNotPresent
+  namespace: reactive
   imageTags:
-    activity: 1.0.0-c5bc76a
-    chirp: 1.0.0-c5bc76a
-    friend: 1.0.0-c5bc76a
-    frontend: 1.0.0-c5bc76a
+    activity: 1.0.0-SNAPSHOT
+    chirp: 1.0.0-SNAPSHOT
+    friend: 1.0.0-SNAPSHOT
+    frontend: 1.0.0-SNAPSHOT
 hostname:
 resources: {}
 alpineImage: alpine:3.8
