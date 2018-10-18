@@ -19,6 +19,6 @@ image:
     chirp: 1.0.0-SNAPSHOT
     friend: 1.0.0-SNAPSHOT
     frontend: 1.0.0-SNAPSHOT
-hostname:
+hostname: mycluster.icp
 resources: {}
 alpineImage: alpine:3.8
