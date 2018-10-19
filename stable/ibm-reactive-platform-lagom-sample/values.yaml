@@ -11,7 +11,7 @@ arch: amd64
 ## Common image variables
 ###############################################################################
 image:
-  repository: mycluster.icp:8500
+  repository: mycluster.icp:8500/reactive
   pullPolicy: IfNotPresent
   namespace: reactive
   imageTags:
